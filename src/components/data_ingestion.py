@@ -89,5 +89,4 @@ if __name__ == "__main__":
     model_trainer = ModelTrainer()
     r2_square = model_trainer.initiate_model_trainer(train_arr, test_arr)
     print(f"R2 Square Score: {r2_square}")
-
-    
+    print("Data Ingestion and Model Training completed successfully")
